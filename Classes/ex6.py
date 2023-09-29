@@ -17,20 +17,10 @@ class Restaurant:
     def increment_number_served(self, increment):
         self.number_served += increment
 
-# Criar uma instância da classe Restaurant
+
 restaurant = Restaurant("Gusteau", "French cuisine")
-
-# Apresentar o número de clientes atendidos (valor padrão, 0)
 print("Number of customers served:", restaurant.number_served)
-
-# Mudar o número de clientes atendidos
 restaurant.set_number_served(50)
-
-# Apresentar o novo número de clientes atendidos
 print("Number of customers served:", restaurant.number_served)
-
-# Incrementar o número de clientes atendidos
 restaurant.increment_number_served(20)
-
-# Apresentar o novo número de clientes atendidos após incrementar
 print("Number of customers served:", restaurant.number_served)
